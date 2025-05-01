@@ -1,0 +1,79 @@
+.back-adapted {
+    background-color: rgb(106 17 203 );
+    color: white;
+}
+
+.back-degraded {
+    background: linear-gradient(to right, rgb(106 17 203), rgb(0, 110, 255));
+    color: white;
+}
+
+.text-adapted {
+    color: rgb(106 17 203 );
+}
+
+.btn-adapted {
+    background-color: rgb(106, 17, 203);
+    color: white;
+    border: 1px solid rgb(106, 17, 203);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-adapted:hover,
+.btn-adapted:focus {
+    background-color: rgb(85, 13, 163);
+    border-color: rgb(85, 13, 163);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-outline-adapted {
+    background-color: white;
+    color: rgb(106, 17, 203);
+    border: 1px solid rgb(106, 17, 203);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-outline-adapted:hover, 
+.btn-outline-adapted:focus {
+    background-color: rgb(106, 17, 203);
+    color: white;
+    border-color: rgb(106, 17, 203);
+    text-decoration: none;
+}
+
+.back-gray {
+    background-color: rgb(247, 247, 247);
+}
+
+.back-footer {
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+    color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+    font-size: large;
+}
+
+.form-adapted {
+    display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: 2px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-adapted:hover, 
+.form-adapted:focus {
+    border: 2px solid rgb(106, 17, 203);
+    border-radius: var(--bs-border-radius);
+    outline: none;
+    box-shadow: 0 0 5px 3px rgba(106, 17, 203, 0.25);
+}

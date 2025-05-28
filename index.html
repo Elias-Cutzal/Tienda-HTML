@@ -51,12 +51,12 @@
                             style="font-size: 10px;">
                             2
                             <span class="visually-hidden"> messages</span></i>
-
-                    <i class="bi bi-cart"><span
+                            <i class="bi bi-cart" id="carritoIcono"><span
                             class="position-absolute top-1 start-90 translate-middle badge rounded-pill bg-danger"
                             style="font-size: 10px;">
-                            3
+                            <span id="cantidad"></span>
                             <span class="visually-hidden">unread messages</span></i>
+                    
                 </div>
             </div>
             <div class="d-flex  d-md-none justify-content-around"
@@ -71,7 +71,7 @@
                         2
                         <span class="visually-hidden"> messages</span></i>
 
-                <i class="bi bi-cart"><span
+                <i class="bi bi-cart"id="carritoIcono"><span
                         class="position-absolute top-1 start-90 translate-middle badge rounded-pill bg-danger"
                         style="font-size: 10px;">
                         3
@@ -80,6 +80,20 @@
         </nav>
     </header>
     <main class="container-fluid"><!--CUERPO-->
+
+
+
+        <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel"><!--Onfcan-->
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="staticBackdropLabel">Tu Carrito</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+            </div>
+        </div>
+
         <div class="row back-degraded p-2 py-5"><!--PRIMERA PARTE-->
             <div class="col-12 col-xl-8 offset-xl-2 d-flex flex-wrap">
                 <div class="col-12 col-md-6 align-content-center">

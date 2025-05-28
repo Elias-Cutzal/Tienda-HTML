@@ -54,7 +54,7 @@
                             <i class="bi bi-cart" id="carritoIcono"><span
                             class="position-absolute top-1 start-90 translate-middle badge rounded-pill bg-danger"
                             style="font-size: 10px;">
-                            <span id="cantidad"></span>
+                            <span class="cantidad"></span>
                             <span class="visually-hidden">unread messages</span></i>
                     
                 </div>
@@ -74,25 +74,13 @@
                 <i class="bi bi-cart"id="carritoIcono"><span
                         class="position-absolute top-1 start-90 translate-middle badge rounded-pill bg-danger"
                         style="font-size: 10px;">
-                        3
+                        <span class="cantidad"></span>
                         <span class="visually-hidden">unread messages</span></i>
             </div>
         </nav>
     </header>
     <main class="container-fluid"><!--CUERPO-->
-
-
-
-        <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-            aria-labelledby="staticBackdropLabel"><!--Onfcan-->
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="staticBackdropLabel">Tu Carrito</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                
-            </div>
-        </div>
+        
 
         <div class="row back-degraded p-2 py-5"><!--PRIMERA PARTE-->
             <div class="col-12 col-xl-8 offset-xl-2 d-flex flex-wrap">
@@ -246,6 +234,18 @@
                     <input type="email" class="form-adapted" name="mail" placeholder="Tu coreo electrónico">
                     <button type="submit" class="btn btn-adapted ">Suscríbete</button>
                 </form>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end back-offCanvas" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel"><!--OFFCANVAS-->
+            <div class="offcanvas-header back-adapted">
+                <h5 class="offcanvas-title text-white" id="staticBackdropLabel">Tu Carrito</h5>
+                <div data-bs-theme="dark"></div>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column gap-3">
+                
             </div>
         </div>
     </main>
